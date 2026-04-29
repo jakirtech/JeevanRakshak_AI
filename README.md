@@ -209,10 +209,11 @@ JeevanRakshak AI — Saving lives through the power of data and community
 ⭐ If this project helped you or inspired you, please consider giving it a star!
 
 # Team name : Quantum Coders
-# Team members : 1.Jakir Hossain (project handing )
-                 2.Devashish Das
-                 3.Irshad Ali
-                 4.Rani Bora (presentation)
-                 5.Mrinmoy Baruah
-
+# Team members : 
+ 1. Jakir Hossain ( project handling)
+ 2. Irshad Ali ( project idea and features)
+ 3. Dvashish Das (project idea and features)
+ 4. Rani Bora (presentation)
+ 5. Mrinmoy Baruah (Team leader)
+ 
  Thank you .                

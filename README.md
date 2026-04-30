@@ -137,62 +137,6 @@ Stores reports and data locally on the device
 Automatically syncs to the server when connectivity is restored
 
 
-🗂️ Project Structure
-my-assam-app/
-│
-├── app/                        # Screens (Expo Router)
-│   ├── _layout.tsx             # Root layout
-│   ├── index.tsx               # Home screen
-│   ├── login.tsx               # Authentication screen
-│   ├── map.tsx                 # Flood risk map screen
-│   ├── safely.tsx              # Safety advisory screen
-│   ├── chart.tsx               # Data charts screen
-│   ├── report.tsx              # Reporting screen
-│   ├── admin.tsx               # Admin dashboard
-│   ├── profile.tsx             # User profile
-│   ├── UI.tsx                  # UI showcase
-│   ├── layout.tsx              # Layout screen
-│   ├── [id].tsx                # Dynamic district detail
-│   └── _not_found.tsx          # 404 fallback
-│
-├── components/                 # Reusable UI components
-│   ├── AssamMap.tsx            # Interactive Assam district map
-│   ├── chatassistant.tsx       # AI chat assistant
-│   ├── smartsearch.tsx         # Voice + text smart search
-│   ├── advisorycard.tsx        # Safety advisory card
-│   ├── emergencycard.tsx       # Emergency SOS card
-│   ├── districtpicker.tsx      # District selection UI
-│   ├── disastertimeline.tsx    # Disaster event timeline
-│   ├── storyhero.tsx           # Hero/story banner
-│   ├── errorboundary.tsx       # Error boundary wrapper
-│   ├── errorfailback.tsx       # Error fallback UI
-│   └── keyboardawarescrollviewcompat.tsx
-│
-├── context/
-│   └── appcontext.tsx          # Global app state (React Context)
-│
-├── hooks/
-│   ├── usecolor.ts             # Color theme hook
-│   └── usecolour.ts            # Colour utility hook
-│
-├── constants/
-│   ├── diseases.ts             # Disease data & definitions
-│   ├── hospitals.ts            # Hospital listings by district
-│   ├── districts.ts            # Assam district data
-│   ├── risk.ts                 # Risk level constants
-│   ├── colour.ts               # Color palette constants
-│   └── translation.ts          # i18n strings (EN / HI / AS)
-│
-├── app.json                    # Expo app config
-├── package.json                # Dependencies
-├── tsconfig.json               # TypeScript config
-├── metro.config.js             # Metro bundler config
-├── babel.config.js             # Babel config
-├── build.js                    # Build script
-├── serve.js                    # Dev server script
-├── artifact.toml               # Deployment config
-└── landing_page.html           # Web landing page
-
 🛡️ Disclaimer
 
 ⚠️ JeevanRakshak AI is a decision-support tool and does not replace professional medical advice. All health-related guidance in the app is informational only. Users are always advised to consult a qualified doctor or medical professional before taking any medication or making health decisions.
